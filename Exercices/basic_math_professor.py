@@ -59,7 +59,7 @@ def main() -> None:
             print("Mauvais que tu es !!!")
             print(f"{x[i]} + {y[i]} = {x[i] + y[i]}")
     needed_time = time.time() - start_time
-    print(f"{max(0, (10 - mistakes))}/10")
+    print(f"10 - mistakes}/10")
     print(f"Tu as pris {format_time(needed_time)}.")
 
 
